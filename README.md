@@ -1,3 +1,10 @@
+### Run test
+
+```
+$ go test -test.v > out.txt
+```
+
+
 ```
 === RUN   TestLbsToKg
     weightconv_test.go:10: 7.924074156344622
