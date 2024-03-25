@@ -1,14 +1,10 @@
-
-```bash
-$ go test -test.v
 === RUN   TestLbsToKg
-weight_test.go:10: 1.290053076562665
-weight_test.go:15: Kg1:0.5850580846089184  Kg2:0.5850580846089184
+    weightconv_test.go:10: 7.924074156344622
+    weightconv_test.go:15: Kg1:3.593684424646087  Kg2:3.593684424646087
 --- PASS: TestLbsToKg (0.00s)
 === RUN   TestKgToLbs
-weight_test.go:23: 3.183115149149862
-weight_test.go:28: Test TestKgToLbs passed!!!
+    weightconv_test.go:23: 4.085538038033192
+    weightconv_test.go:28: Test TestKgToLbs passed!!!
 --- PASS: TestKgToLbs (0.00s)
 PASS
-ok      github.com/unixlinuxgeek/The_Go_Programming_Language/exercises/2.2/conv/weight  0.001s
-```
+ok  	a	0.002s
